@@ -17,5 +17,5 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 %post
     echo "Hello from inside the container"
     sed -i 's/$/ universe/' /etc/apt/sources.list
-    apt-get -y install vim
+    apt-get -y install emacs
 
